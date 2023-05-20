@@ -6,7 +6,8 @@ int main()
 {
     // 1. for push, 2. for pop, 3. for display, 4. for exit
     int choice;
-    Stack st = create();
+    Stack st;
+    initializeStack(&st);
     printf("********* Stack Demo Menu ********* \n");
     do
     {

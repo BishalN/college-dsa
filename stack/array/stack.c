@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include "stack.h"
 
-Stack create()
+void initializeStack(Stack *st)
 {
-    Stack st;
-    st.top = -1;
-    return st;
+    st->top = -1;
 }
 
 int isEmpty(Stack *st)
